@@ -7,6 +7,7 @@ function useCurrencyInfo(currency) {
         .then((res) => res.json())
         .then((res)=>setData(res))
         return data
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[currency]);
     console.log(data);
     return data;
