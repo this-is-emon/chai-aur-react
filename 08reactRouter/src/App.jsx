@@ -1,12 +1,13 @@
 import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
+import Home from "./components/Home/Home";
 
 function App() {
   return (
     <>
       <Header />
-      <div className="bg-green-600 p-4">React Router</div>
+      <Home></Home>
       <Footer />
     </>
   );
